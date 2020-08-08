@@ -1,8 +1,9 @@
 import React from 'react';
 import Layout from '../components/layout';
+import Join from '../components/join';
 
-export default () => {
+export default () => (
   <Layout>
-    <h1></h1>
-  </Layout>;
-};
+    <Join />
+  </Layout>
+);
