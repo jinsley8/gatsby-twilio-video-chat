@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "gatsby-twilio-video-chat",
+  "description": "A video chat app using Gatsby and Twilio.",
+  "author": "Jon Insley",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "gatsby": "^2.24.36",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "twilio": "^3.48.2",
+    "twilio-video": "^2.7.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
